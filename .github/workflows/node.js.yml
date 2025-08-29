@@ -1,0 +1,11 @@
+name: Testing_Cavenetrix
+on:
+  push:
+    branches: [ "main" ]
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'hello desde testing'
+        run: echo "Hello desde el testing"
